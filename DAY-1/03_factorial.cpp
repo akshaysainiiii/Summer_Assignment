@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Write a program to find factorial of a  number
-
 int main()
 {
 

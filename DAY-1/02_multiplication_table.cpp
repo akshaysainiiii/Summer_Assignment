@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Write a program to print multiplication table of a given  number
-
 int main()
 {
 

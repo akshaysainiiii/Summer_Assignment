@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Write a program to count digits in a  number
-
 int main()
 {
 
