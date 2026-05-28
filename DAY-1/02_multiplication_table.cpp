@@ -1,15 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() {
+// Write a program to print multiplication table of a given number
+
+int main()
+{
 
     int n;
-    cout<<"Enter the no : " ;
-    cin>>n;
+    cout << "Enter the number : ";
+    cin >> n;
 
-    for(int i=1; i<=10; i++) {
-        int table = n*i;
-        cout<<table<<" ";
+    for (int i = 1; i <= 10; i++)
+    {
+        int table = n * i;
+        cout << table << " ";
     }
 
     return 0;

@@ -1,19 +1,23 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() {
+// Write a program to count digits in a number
+
+int main()
+{
 
     int n;
-    cout<<"Enter the no : " ;
-    cin>>n;
+    cout << "Enter the number : ";
+    cin >> n;
 
     int count = 0;
-    while(n>0) {
-        count ++;
-        n = n/10;
-        }
+    while (n > 0)
+    {
+        count++;
+        n = n / 10;
+    }
 
-        cout<<"Total no of digit in the no = "<<count;
-        
+    cout << "Total no of digit in the number = " << count;
+
     return 0;
 }

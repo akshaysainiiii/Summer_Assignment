@@ -1,17 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main () {
+// Write a program to calculate sum of first N natural numbers
 
-    int n; 
-    cout<<"Enter the first n natural no : ";
-    cin>>n;
+int main()
+{
+
+    int n;
+    cout << "Enter the nth natural number : ";
+    cin >> n;
 
     int sum = 0;
-    for(int i=1; i<=n; i++) {
-        sum+=i;
+    for (int i = 1; i <= n; i++)
+    {
+        sum += i;
     }
 
-    cout<<"The sum of first n natural no is "<<sum;
+    cout << "The sum of first n natural no is " << sum;
+    
     return 0;
 }

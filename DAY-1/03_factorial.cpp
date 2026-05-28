@@ -1,18 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() {
+// Write a program to find factorial of a number
+
+int main()
+{
 
     int n;
-    cout<<"Enter the no : " ;
-    cin>>n;
+    cout << "Enter the number : ";
+    cin >> n;
 
     int fact = 1;
-    for(int i=n; i>=1; i--) {
-       fact*=i;
+    for (int i = n; i >= 1; i--)
+    {
+        fact *= i;
     }
 
-    cout<<"Factorial = "<<fact;
+    cout << "Factorial = " << fact;
 
     return 0;
 }
