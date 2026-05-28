@@ -17,6 +17,6 @@ int main()
     }
 
     cout << "The sum of first n natural no is " << sum;
-    
+
     return 0;
 }
